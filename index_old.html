@@ -1,0 +1,1596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)https://oa.asiainfo.com/home/index -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>亚信员工工作平台</title>
+		<link href="./css/master.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="lib/iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="./ajaxfileupload.js"></script>
+		<script type="text/javascript" src="./lrtk.js"></script>
+		<script type="text/javascript" src="./jquery.SuperSlide.2.1.1.js"></script>
+		<style type="text/css">
+			.dialog2 {
+				width: 700px;
+				height: 200px;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				margin: -150px 0 0 -260px;
+				background: url(../images/xinyuetangtishibeijing.png);
+				z-index: 1000;
+			}
+			
+			.dialog2_main {
+				padding: 35px 0 0 35px;
+			}
+			
+			.dialog2-close {
+				top: 10px;
+				right: 15px;
+				font-size: x-large;
+				font-weight: bolder;
+				color: black;
+				cursor: pointer;
+				line-height: 16px;
+				text-align: center;
+				height: 16px;
+				width: 16px;
+				position: absolute;
+				font-family: monospace;
+			}
+		</style>
+		<style>
+			.oss-menu-list {
+				float: right;
+				height: 60px;
+			}
+			
+			.oss-menu-list li {
+				padding: 18px 0;
+				height: 60px;
+				color: #ffffff;
+				float: right;
+				cursor: pointer;
+			}
+			
+			.oss-menu-list li i {
+				font-size: 24px;
+				vertical-align: middle;
+			}
+			
+			.oss-menu-list li span {
+				padding: 0 20px 0 10px;
+				display: inline-block;
+				font-size: 14px;
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			.oss-divider-line {
+				height: 20px;
+				margin-right: 20px;
+				border-left: 1px solid #b0b2b9;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			
+			.oss-clear-fixed:before,
+			.oss-clear-fixed:after {
+				display: table;
+				content: '';
+				clear: both;
+			}
+			
+			.oss-head-nav {
+				width: 100%;
+				height: 60px;
+				font-size: 12px;
+				background-color: #ffffff;
+				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.09);
+			}
+			
+			.oss-head-nav-menu {
+				width: 1200px;
+				height: 60px;
+				margin: 0 auto;
+			}
+			
+			.oss-logo {
+				padding: 10px 0;
+				float: left;
+				height: 100%;
+				cursor: pointer;
+			}
+			
+			.oss-logo span {
+				color: #666;
+				font-size: 26px;
+				margin-right: 12px;
+			}
+			
+			.oss-head-nav .oss-menu-list li a {
+				color: #666;
+			}
+			
+			.xinkefu:before {
+				color: #35bd80;
+				content: '\e611';
+			}
+			
+			.zhushou:before {
+				color: #963db4;
+				content: '\e60e';
+			}
+			
+			.xingonghui:before {
+				color: #3f87df;
+				content: '\e60d';
+			}
+			
+			.hr:before {
+				color: #963db4;
+				content: '\e60a';
+			}
+			
+			.vi:before {
+				color: #f39230;
+				content: '\e60c';
+			}
+			
+			.xinkefu:before,
+			.xingonghui:before,
+			.zhushou:before,
+			.hr:before,
+			.vi:before {
+				margin-right: 10px;
+				font-family: iconfont;
+				font-size: 24px;
+				vertical-align: middle;
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover .xinkefu:before {
+				content: "\e610";
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover .xingonghui:before {
+				content: "\e615";
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover .zhushou:before {
+				content: "\e60f";
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover .hr:before {
+				content: "\e614";
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover .vi:before {
+				content: "\e613";
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover a {
+				color: #252528;
+			}
+			
+			.oss-head-nav .oss-menu-list li:hover i {
+				background-color: #252528;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--顶部菜单开始-->
+		<input type="hidden" id="bdxParameter" value="JOGOqMyvztZSn%2FrexpEUBzSy1ftXqYt4iwUc%2FIvVftgKF4xgj7dXEdinPCdor2ZIn3eWt4fAV2t5%0DcyLg1luZQ2nXHetdgtTVTPxuIOzlhXX08MrRG2%2BFgol4bF1DDFo2%0D">
+		<!--	<a href="view?id=94d8c996-5527-8258-4651-0d2ab11e3d99" target="_blank"><DIV
+			id='henzhaoji'
+			style="position: absolute; width: 100px; height: 120px; z-index: 99; left: 1160px; cursor: pointer;"
+			title="click"></DIV></a>-->
+		<div class="nav">
+			<div class="nav_wrap">
+				<table border="0" cellspacing="0" cellpadding="0" class="top_menu">
+					<tbody>
+						<tr>
+							<td height="50">
+								<a target="_blank" href="https://oa.asiainfo.com/user/employeeSeach">通讯录 </a>
+							</td>
+							<td>
+								<a href="http://home1.asiainfo.com/aitos" target="_blank">差旅系统</a>
+							</td>
+							<td>
+								<a href="http://home1.asiainfo.com/aioas/submitapplication/cansubmitbusinessclassbrowse.aspx" target="_blank">MIS业务</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+						</tr>
+						<tr>
+							<td height="50">
+								<a href="http://mail.asiainfo.com/" target="_blank">E-mail</a>
+							</td>
+							<td>
+								<a href="https://oa.asiainfo.com/home/gojifensys" target="_blank">积分系统</a>
+							</td>
+							<td>
+								<a href="http://info.asiainfo.com/TimeSheet/login.jsp" target="_blank">工时系统</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="topmenu_wall"></div>
+				<table border="0" cellspacing="0" cellpadding="0" class="top_menu">
+					<tbody>
+						<tr>
+							<td height="50">
+								<a href="http://home1.asiainfo.com/aisse" target="_blank">网上报销</a>
+							</td>
+							<td>
+								<a href="http://ims.asiainfo.com/Contract/Jsp/main.jsp" target="_blank">合同管理</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+						</tr>
+						<tr>
+							<td height="50">
+								<a href="http://intra.asiainfo.com/misonline/subnavigation.aspx?navigationid=eaedb98c-05f4-466b-80d7-2a1f0577a046" target="_blank">资产采购</a>
+							</td>
+							<td>
+								<a href="http://info.asiainfo.com/BudgetNew/Jsp/main.jsp" target="_blank">项目预算</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="topmenu_wall"></div>
+				<table border="0" cellspacing="0" cellpadding="0" class="top_menu">
+					<tbody>
+						<tr>
+							<td height="50">
+								<a href="http://home1.asiainfo.com/aihra" target="_blank">人事审批</a>
+							</td>
+							<td>
+								<a href="http://home1.asiainfo.com/AISES/report/statequery.aspx" target="_blank">员工入职</a>
+							</td>
+							<td>
+								<a href="http://aiidp.asiainfo.com/" target="_blank">人才档案</a>
+							</td>
+							<td>
+								<a href="https://oa.asiainfo.com/home/zhaopinsys" target="_blank">招聘管理</a>
+							</td>
+							<td>
+								<a href="http://10.1.31.73/" target="_blank">信客服</a>
+							</td>
+							<td>
+								<a href="http://zhixin.asiainfo.com/" target="_blank">知信</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+							<td>
+								<div class="menu_line"></div>
+							</td>
+						</tr>
+						<tr>
+							<td height="50">
+								<a href="http://hrleave.asiainfo.com/LeaveMS/index.jsp" target="_blank">休假申请</a>
+							</td>
+							<td>
+								<!-- <a href="http://home1.asiainfo.com/AICMS/" target="_blank"  >劳动合同</a> -->
+
+								<a href="javascript:alert(&#39;没有此权限&#39;)">数据之窗</a>
+
+							</td>
+							<td>
+								<a href="http://home1.asiainfo.com/aihra/submitapplication/cansubmitworkovertimebusinessbrowse.aspx" target="_blank">加班申请</a>
+							</td>
+							<td>
+								<a href="http://ppas.asiainfo.com/pms" target="_blank">绩效管理</a>
+							</td>
+							<td>
+								<!--<a href="../home/yunxuetang" target="_blank">信学堂</a>-->
+								<a href="javascript:void(null)" onclick="js_method()">信学堂</a>
+							</td>
+							<td>
+								<a href="http://ims.asiainfo.com/Dispatch/agent/redirect/AILKIPORTAL.html" target="_blank">创新Iportal</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div>
+					<a href="http://home.asiainfo.com/AIFLS/FileRoot/0/2/d/02d7d56d-1a99-9a05-4fca-3c6248039308/%e6%8b%9b%e8%81%98%e7%b3%bb%e7%bb%9fQA_lijing4_20160803102837.pdf" target="_blank">
+						<div id="zhaopingshouce" style="float:left; width: 100px; height: 120px; margin-left:20px; cursor: pointer;" title="click"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--顶部菜单结束-->
+
+		<!--新增导航条-->
+		<div class="oss-head-nav">
+			<div class="oss-head-nav-menu clear-fixed">
+				<div class="oss-logo">
+					<span>一站式员工服务</span>
+					<span>One stop service</span>
+				</div>
+				<ul class="oss-menu-list clear-fixed">
+					<li>
+						<div class="oss-divider-line"></div>
+						<a href="">
+							<!--<i class="iconfont icon-xinkefu"></i>-->
+							<span class="xinkefu">信客服</span>
+						</a>
+					</li>
+					<li>
+						<div class="oss-divider-line"></div>
+						<a href="">
+							<span class="xingonghui">亚信公会</span>
+						</a>
+					</li>
+					<li>
+						<div class="oss-divider-line"></div>
+						<a href="content-page.html">
+							<span class="zhushou">行政助手</span>
+						</a>
+					</li>
+					<li>
+						<div class="oss-divider-line"></div>
+						<a href="">
+							<span class="vi">VI品牌</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<span class="hr">HR-SSC</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--新增导航条结束-->
+		<div class="wrap">
+			<!--logo头部开始-->
+			<div class="head">
+				<div class="logo">
+					<img src="./images/logo.png" width="214" height="64"><img src="./images/logo_name.png" width="229" height="64">
+				</div>
+				<div class="user_info">
+
+					<span>中文</span>&nbsp;/&nbsp;
+					<a href="https://oa.asiainfo.com/home/languageChange?language=en" class="info_link">English</a>
+
+				</div>
+				<div class="search">
+					<input type="text" class="search_ipt" value="Search"><input type="button" class="search_btn" id="btnSearch">
+				</div>
+			</div>
+			<!--logo头部结束-->
+			<div class="gg">
+				<marquee scrolldelay="120" align="middle" id="gundong" onmouseover="this.stop()" onmouseout="this.start()">
+					<a style="padding-left:50px;" href="https://oa.asiainfo.com/home/view?id=7cc1b571-4f40-be23-48cb-253ebc2144fa" target="_blank">9月9日“In AsiaInfo”造星活动，教你提升职业形象！</a>
+					<a style="padding-left:50px;" href="http://ppas.asiainfo.com/pms/" target="_blank">2016年度下半年绩效目标设定开始了，截止9月9日！</a>
+					<a style="padding-left:50px;" href="https://oa.asiainfo.com/home/view?id=77da53ca-01f6-a1cf-4b81-48813e3ee6f0" target="_blank">辛巴达闯关秘籍</a>
+				</marquee>
+			</div>
+			<!--页面主体部分开始 -->
+			<div class="main">
+				<!--kickoff   暂时不用-->
+				<!--  <div class="kickoff" style="margin-top:10px;">
+		<a href="view6?id=cd02a9a1-02b2-a534-43e8-62744f2db7dc"><img src="../images/kickoff.jpg"></img></a>
+		</div>-->
+				<!--kickoff   暂时不用-->
+				<div class="kickoff" style="margin-top:10px;">
+					<a href="https://oa.asiainfo.com/home/view6?id=2ba1239c-cfe5-910d-4557-2750b632beec" target="_blank"><img src="./lianzhongxiaoshouhui.jpg"></a>
+				</div>
+				<div class="side_l clearfix">
+					<div class="baseinfo">
+						<div class="userbar">
+							<a class="s_avatar"> <img id="imgUserPhoto" src="./users_photo.jpg" width="92" height="92">
+								<div class="user_cover" onclick="uploadPhoto()" style="cursor: pointer;"></div>
+							</a>
+							<div class="use_baseinfo">
+								<div class="use_name">
+									杨雄<span>(31883)</span>
+								</div>
+								<div class="use_deal">
+									待处理
+									<a href="https://oa.asiainfo.com/home/index#" class="use_dealnum" onclick="showdown()" id="daichuli">0</a>
+									件
+								</div>
+							</div>
+							<table border="0" cellspacing="0" cellpadding="0" class="user_table">
+								<tbody>
+									<tr>
+										<td width="80">
+											<a href="http://aiidp.asiainfo.com/" target="_blank" class="use_link">个人信息</a>
+										</td>
+										<td width="40">司龄:</td>
+										<td width="50"><span class="use_num">0年</span></td>
+										<td width="40">积分：</td>
+										<td>
+											<a title="点击登录到关爱通积分平台" href="https://oa.asiainfo.com/home/gojifensys" target="_blank"> <span id="spanjifen" class="use_num">0</span></a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+
+										</td>
+										<td>
+											<!-- 休假： -->
+										</td>
+										<td><span class="use_num"> <!--5天 -->
+								</span></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="tool_tit">
+							<h3 style="position: relative;">个人工具栏
+							<div style="font: normal; text-decoration: underline; text-align: right; font-size: 14px; position: relative; border: 1 solid red; top: -30px; z-index: 99; cursor: pointer; right: 15px;" onclick="showLookSystem()">更多工具</div>
+						</h3>
+
+						</div>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tool_table">
+							<tbody>
+								<tr>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td style="border-right: 0;">
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td>
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+									<td style="border-right: 0;">
+										<a class="add_tool" onclick="addToolClick(this)"></a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="user_foot">点击“+”定义工具</div>
+					</div>
+
+					<!-- HR小贴示 （OLD）国内员工用 -->
+					<a href="http://gssc.asiainfo.com/spw" target="_blank" class="link_net"><img src="./myhrimage.gif" width="300" height="90"></a>
+
+				</div>
+				<!--大轮播图，自动切换+手动切换tianyue-->
+				<div class="banner clearfix">
+					<div id="playBox">
+						<div class="pre"></div>
+						<div class="next"></div>
+						<div class="smalltitle">
+							<ul style="overflow: hidden;">
+
+								<li class="thistitle">小目标大计划</li>
+
+								<li class="">2016年度下半年绩效目标设定开始了，截止9月9日！</li>
+
+								<li class="">辛巴达闯关秘籍</li>
+
+								<li class="">内推送无人机！</li>
+
+							</ul>
+						</div>
+						<ul class="oUlplay" style="left: 0px;">
+
+							<li>
+								<a target="_blank" href="https://oa.asiainfo.com/home/view?id=eb4c9029-d3df-aecb-4372-2285067c6f7f"><img width="580px" height="240px" src="./小目标大计划（240）.jpg"></a>
+							</li>
+
+							<li>
+								<a target="_blank" href="http://ppas.asiainfo.com/pms/"><img width="580px" height="240px" src="./15dad715-e65c-856f-464b-df1c3c7ddc15.jpg"></a>
+							</li>
+
+							<li>
+								<a target="_blank" href="http://home.asiainfo.com/AIFLS/FileRoot//2/1/6/21653b23-781c-9514-4ab0-282804b0b839/%D0%C1%B0%CD%B4%EF%B4%B3%B9%D8%C3%D8%BC%AE.pdf"><img width="580px" height="240px" src="./秘籍.jpg"></a>
+							</li>
+
+							<li>
+								<a target="_blank" href="https://oa.asiainfo.com/home/view?id=f26db8f7-04f8-a591-455f-f3920f1dc81c"><img width="580px" height="240px" src="./OA滚动Banner.jpg"></a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<div>
+					<!--biaozhang	 <div style="height:70px;width:300px;float: left;margin-top: 10px;padding-top:8px;border-top: 1px solid #ccc;" class="biaozhang">
+				<a href="https://oa.asiainfo.com/home/view?id=3c3c65fb-ca86-83ac-45b0-7f692969473a&rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">
+				    <img src="../images/biaozhang.jpg" width="300" height="70" style="margin-right:1px;margin-left:1px;"></img></a> biaozhang-->
+					<!--<a href="http://home.asiainfo.com/AIOES3" target="_blank">
+				    <img src="../images/360ceping2.jpg" width="70" height="70" style="margin-right:1px;"></img></a>
+				<a href="http://home.asiainfo.com/AIOES2" target="_blank">
+				    <img src="../images/360ceping3.jpg" width="70" height="70" style="margin-right:1px;"></img></a>
+				<a href="http://home.asiainfo.com/AIOES1" target="_blank">
+				    <img src="../images/360ceping4.jpg" width="70" height="70" style="margin-right:1px;"></img></a> -->
+					<!--biaozhang	</div>biaozhang-->
+					<!-- <a href="view2?id=ed5a0219-82a7-86fd-49bb-edc1a1da68bf"
+				target="_blank" class="link_net"><img
+				src="../images/111.png" width="300" /></a> -->
+					<a href="https://oa.asiainfo.com/home/view2?id=ed5a0219-82a7-86fd-49bb-edc1a1da68bf" target="_blank" class="link_net"><img src="./link_02.png" width="300" height="240"></a>
+					<!--	src="../images/link_02.png" width="300"  height="152"/></a>-->
+				</div>
+				<div class="small_wrap swrap_l clearfix">
+					<div class="cathd">
+						<h2 class="has_icon">通知</h2>
+						<a href="https://oa.asiainfo.com/home/view2?id=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank" class="more_link">more…</a>
+					</div>
+					<div class="catbd">
+						<ul class="inform_list">
+
+							<li><span class="inform_list_time">2016-08-24</span>
+								<a href="https://oa.asiainfo.com/home/view?id=cb0e5529-f653-b5ba-40a6-141ef798db6c&amp;rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">2016年度下半年绩效目标设定开始了！</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-07-25</span>
+								<a href="https://oa.asiainfo.com/home/view?id=fa94578c-01e6-ab0f-4da1-839eb7a0b2e5&amp;rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">【英雄榜揭榜】2016年亚信集团项目管理“黑带大师”</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-07-12</span>
+								<a href="https://oa.asiainfo.com/home/view?id=91fb14e5-dcb4-ab6d-4be4-e6748dfb072b&amp;rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">关于任命高念书为亚信软件CEO的通知</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-06-23</span>
+								<a href="https://oa.asiainfo.com/home/view?id=ca2831f6-9dc3-bc92-4eb5-1c545c7ff7b7&amp;rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">项目管理黑带大师评选工作启动通知</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-04-20</span>
+								<a href="https://oa.asiainfo.com/home/view?id=2f632ef1-c143-b5e1-4dde-a0c51ae11c7c&amp;rootcontentid=b5d468d6-4650-a574-4f8a-16f10622fa50" target="_blank">2016年上半年绩效目标设定开始了——善种，从现在开始</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="small_wrap swrap_r clearfix">
+					<div class="cathd">
+						<h2>你好！亚信人</h2>
+						<a href="http://info.asiainfo.com/HelloAI/main/home.html" target="_blank" class="more_link">more…</a>
+					</div>
+					<div class="catbd" id="helloaidiv" style="background-image: url(&quot;../images/helloai/helloai-116-7-31-9-34.jpg&quot;); background-size: 270px 147px;">
+						<ul class="hello_list">
+							<li>
+								<a href="http://info.asiainfo.com/HelloAI/main/article.html?id=2334" target="_blank">助力“互联网+转型” 打造产业互联生态圈</a>
+							</li>
+							<li>
+								<a href="http://info.asiainfo.com/HelloAI/main/article.html?id=2335" target="_blank">亚信集团CEO武军一行拜会长沙市胡衡华市长共商区域发展大计</a>
+							</li>
+							<li>
+								<a href="http://info.asiainfo.com/HelloAI/main/article.html?id=2336" target="_blank">BB那些年我们踩过的坑</a>
+							</li>
+							<li>
+								<a href="http://info.asiainfo.com/HelloAI/main/article.html?id=2337" target="_blank">2000字读懂《为数据而生》</a>
+							</li>
+							<li>
+								<a href="http://info.asiainfo.com/HelloAI/main/article.html?id=2338" target="_blank">入Hbase性能优化分享</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--tab页切换-->
+				<div class="small_wrap tab_wrap clearfix">
+					<div class="hover_tab">
+						<div class="tab_l tab_l_hot">
+							<a href="https://oa.asiainfo.com/home/view2?id=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">行业聚焦</a>
+						</div>
+						<div class="tab_r">
+							<a href="https://oa.asiainfo.com/home/view2?id=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">创新前沿</a>
+						</div>
+					</div>
+					<div class="catbd">
+						<div class="tab_l_content">
+							<ul class="inform_list tab_contentlist">
+
+								<li><span class="inform_list_time">2016-08-23</span>
+									<a href="https://oa.asiainfo.com/home/view?id=b0e05b2f-019d-bef5-4340-f7ff357a4da9&amp;rootcontentid=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">复盘中国互联网20年，治乱得失都在这里</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-07-25</span>
+									<a href="https://oa.asiainfo.com/home/view?id=c333282c-2ea2-ab66-4537-f842fc38686b&amp;rootcontentid=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">亚信2016年中销售大会在京圆满闭幕</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-07-22</span>
+									<a href="https://oa.asiainfo.com/home/view?id=d8effd81-753b-8972-4f46-fa8a732b1b9e&amp;rootcontentid=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">亚信2016年中销售大会在京召开</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-07-15</span>
+									<a href="https://oa.asiainfo.com/home/view?id=24ef4321-c76e-aa1c-488a-476247012b67&amp;rootcontentid=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">《失控》与投资：深度解读《失控》，以“进化论”研究公司的成长</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-06-27</span>
+									<a href="https://oa.asiainfo.com/home/view?id=817977c5-0ebb-865f-436c-f16c97d3dab9&amp;rootcontentid=444d957c-bfc9-a438-40d7-07423af84d66" target="_blank">亚马逊20年：贝佐斯的商业新哲学</a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="tab_r_content">
+							<ul class="inform_list tab_contentlist">
+
+								<li><span class="inform_list_time">2016-07-26</span>
+									<a href="https://oa.asiainfo.com/home/view?id=4709c2d8-9dc2-b32b-4ea2-b8ca00484bdf&amp;rootcontentid=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">倡导开源精神，打造亚信人自己的开源代码社区</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-07-26</span>
+									<a href="https://oa.asiainfo.com/home/view?id=2ae8881d-1bbc-8e7f-46e4-732f68c56156&amp;rootcontentid=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">创新基金激发产业互联活力——16年第一期创新基金扶持项目揭晓</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-03-08</span>
+									<a href="https://oa.asiainfo.com/home/view?id=2cddafdf-636f-b644-4eed-bd79bff755a5&amp;rootcontentid=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">带你走进黑带大师的技术世界——李小平的私房“菜”</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-01-28</span>
+									<a href="https://oa.asiainfo.com/home/view?id=6890b013-8e69-9ab0-4856-ec5e5a6da614&amp;rootcontentid=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">“变革 发展 客服产品的未来”亚信2016首场创新沙龙在京召开</a>
+								</li>
+
+								<li><span class="inform_list_time">2016-01-14</span>
+									<a href="https://oa.asiainfo.com/home/view?id=853383fb-aebb-9d8e-459f-410ace5aa596&amp;rootcontentid=9c753c48-df6e-a13f-4378-8d05dad1c43f" target="_blank">“变革 • 发展——客服产品的未来“沙龙</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--此处为小轮播图，自动切换，tianyue-->
+				<div class="small_banner clearfix">
+					<div id="slideBox" class="slideBox">
+						<div class="bd">
+							<ul>
+
+								<li>
+									<a href="https://oa.asiainfo.com/home/view?id=a05af978-837b-ba96-497c-d07b5f707bea&amp;rootcontentid=82178c43-6e2b-b2db-46a8-e27e26a2ea83" target="_blank"><img src="./8cde1def-9a0d-aa37-4e83-d964a8c362cf.jpg" width="300" height="170"></a>
+									<div class="ai_logo"></div>
+								</li>
+
+							</ul>
+						</div>
+						<div class="circle_title">
+							<ul class="hd">
+								<li class="on"></li>
+								<!-- 多少张图片轮播小圆圈个数	<li></li>
+							<li></li>
+							<li></li>  -->
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">
+						var ary = location.href.split("&");
+						jQuery("#slideBox").slide({
+							mainCell: ".bd ul",
+							autoPlay: true
+						});
+					</script>
+
+				</div>
+				<div class="small_wrap swrap_l1 clearfix">
+					<div class="cathd">
+						<h2>亚信白皮书</h2>
+						<a href="https://oa.asiainfo.com/home/view2?id=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank" class="more_link">more…</a>
+					</div>
+					<!--  <div class="catbd" id='helloaidiv' height="128px">-->
+
+					<div class="catbd">
+
+						<!--	<ul class="inform_list">  -->
+						<ul class="inform_list tab_contentlist">
+
+							<li><span class="inform_list_time">2016-08-14</span>
+								<a href="https://oa.asiainfo.com/home/view?id=70fa8910-93c3-ba8b-46a9-7975f6eeb8e5&amp;rootcontentid=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank">【解决方案】运营商渠道转型—实体渠道省级集中管理+社会渠道电商化</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-08-10</span>
+								<a href="https://oa.asiainfo.com/home/view?id=d71909e6-160d-9bbd-4d63-e609c3606252&amp;rootcontentid=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank">【销售大会AIS案例推荐】成都安全态势感知案例介绍</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-08-09</span>
+								<a href="https://oa.asiainfo.com/home/view?id=5c5165c0-9356-a473-4043-acd38d2686e0&amp;rootcontentid=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank">【销售大会CTC案例推荐】GIS智慧地图</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-08-07</span>
+								<a href="https://oa.asiainfo.com/home/view?id=6d0a8622-7371-8b56-4176-9e73832ad562&amp;rootcontentid=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank">【销售大会BDX案例推荐】HPS DCP ADB三剑齐发，完整的PAAS平台解决方案</a>
+							</li>
+
+							<li><span class="inform_list_time">2016-08-07</span>
+								<a href="https://oa.asiainfo.com/home/view?id=1ea1d935-f784-af10-4608-94f5c00a7213&amp;rootcontentid=8221f1b2-6851-b86c-4709-b2cf26c271fa" target="_blank">【销售大会BIU案例推荐】继承、创新、发展，以物流BOSS抢占物联网市场</a>
+							</li>
+
+						</ul>
+					</div>
+					<!--  <div   height="128px">
+					 <ul class="hello_list">
+						
+					 </ul>
+				</div>-->
+				</div>
+
+				<div style="height:170px" class="small_wrap swrap_l bss_wrap clearfix">
+					<div class="cathd">
+						<h2 class="has_icon bss_icon" style="padding-left: 52px; background: url(../images/bss.png) no-repeat 16px center;">BBS</h2>
+						<a href="http://bbs.asiainfo.com/bbs" target="_blank" class="more_link">more…</a>
+					</div>
+					<div class="catbd">
+						<ul id="bbs" class="bss_list">
+							<li>
+								<nobr><span class="inform_list_time">1.</span>
+									<a href="http://bbs.asiainfo.com/bbs/showtopic-13725.aspx" target="_blank" class="bss_link">ooo</a><span class="inform_list_time"><nobr>点击:324&nbsp;&nbsp;回复:2</nobr></span></nobr>
+							</li>
+							<li>
+								<nobr><span class="inform_list_time">2.</span>
+									<a href="http://bbs.asiainfo.com/bbs/showtopic-13724.aspx" target="_blank" class="bss_link">求广州增值税发票</a><span class="inform_list_time"><nobr>点击:187&nbsp;&nbsp;回复:2</nobr></span></nobr>
+							</li>
+							<li>
+								<nobr><span class="inform_list_time">3.</span>
+									<a href="http://bbs.asiainfo.com/bbs/showtopic-13723.aspx" target="_blank" class="bss_link">杭州集体户口迁入</a><span class="inform_list_time"><nobr>点击:431&nbsp;&nbsp;回复:0</nobr></span></nobr>
+							</li>
+							<li>
+								<nobr><span class="inform_list_time">4.</span>
+									<a href="http://bbs.asiainfo.com/bbs/showtopic-13722.aspx" target="_blank" class="bss_link">融泽嘉园二室一厅，合租25平米，1350月付，限妹子！</a><span class="inform_list_time"><nobr>点击:468&nbsp;&nbsp;回复:3</nobr></span></nobr>
+							</li>
+							<li>
+								<nobr><span class="inform_list_time">5.</span>
+									<a href="http://bbs.asiainfo.com/bbs/showtopic-13721.aspx" target="_blank" class="bss_link">今年的员工体检开始了吗？没看到相关的通知？</a><span class="inform_list_time"><nobr>点击:536&nbsp;&nbsp;回复:1</nobr></span></nobr>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+				<a href="http://zhixin.asiainfo.com/" target="_blank" class="link_net mr10 clearfix"><img src="./zhixin.png" width="300" height="170"></a>
+
+				<!-- myhr（OLD）国内员工用 -->
+				<div class="myhr1">
+					<a href="http://home.asiainfo.com/aiprt/briefing/HR-SSC/ssc22/index.html" target="_blank">
+						<img src="./hr_ai_care.png" width="270px" height="170px"></a>
+				</div>
+
+				<div class="link_net clearfix" style="width: 300px; position: relative;">
+					<div class="cathd" style="background: url(../images/cat_ttbg1.png) no-repeat;">
+						<h2 class="has_icon class_icon" style="padding-left: 52px; background: url(../images/class.png) no-repeat 16px center;">学院课程</h2>
+						<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="more_link">进入学习平台-&gt;&gt;</a>
+					</div>
+					<div class="catbd">
+						<ul id="class" class="bss_list">
+							<li><span class="inform_list_time">1.</span>
+								<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="bss_link">亚信人力资源与制度</a>
+							</li>
+							<li><span class="inform_list_time">2.</span>
+								<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="bss_link">亚信财务制度及费用报销制度</a>
+							</li>
+							<li><span class="inform_list_time">3.</span>
+								<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="bss_link">商务着装及礼仪</a>
+							</li>
+							<li><span class="inform_list_time">4.</span>
+								<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="bss_link">亚信交付标准体系</a>
+							</li>
+							<li><span class="inform_list_time">5.</span>
+								<a href="https://oa.asiainfo.com/home/yunxuetang" target="_blank" class="bss_link">会议管理</a>
+							</li>
+						</ul>
+					</div>
+					<a href="https://oa.asiainfo.com/home/view3?id=a8e21c74-3654-a326-407c-b0f48a135426" target="_blank" class="more_link" style="right: 10px; top: 140px; position: absolute; color: black;">more…</a>
+
+				</div>
+
+				<div class="small_banner clearfix">
+					<a href="mailto:ai-ai@asiainfo.com"> <img width="300px" height="170px" src="./投诉信箱图片-底部_lijing4_20160729084140.jpg"></a>
+				</div>
+				<!--	<div class="small_wrap swrap_l bss_wrap clearfix"></div>-->
+				<!--此处为亚信村里的人和事小轮播图，自动切换，-->
+				<div class="small_banner clearfix">
+					<div id="slideBox1" class="slideBox">
+						<div class="bd">
+							<ul>
+
+								<li>
+									<a href="https://oa.asiainfo.com/home/viewYaXin?id=6feebe98-fd9e-a231-487c-50408a9012f3" target="_blank"><img src="./1-亚信带盐人_lijing4_20160704181339.jpg" width="300" height="170"></a>
+								</li>
+
+								<li style="display: none;">
+									<a href="https://oa.asiainfo.com/home/viewYaXin?id=fbdb3583-b9f3-9228-4746-622315e89b46" target="_blank"><img src="./2c0cf45b-bcf7-91b7-4d8e-7b3b45819593.jpg" width="300" height="170"></a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="circle_title">
+							<ul class="hd">
+								<li class="on"></li>
+								<!--  <li></li>-->
+								<!-- 多少张图片轮播小圆圈个数<li></li>
+							<li></li>  -->
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">
+						var ary = location.href.split("&");
+						jQuery("#slideBox1").slide({
+							mainCell: ".bd ul",
+							autoPlay: true
+						});
+					</script>
+
+				</div>
+				<!--此处为小轮播图，自动切换-->
+
+				<a href="http://ims.asiainfo.com/Dispatch/agent/redirect/AILKIPORTAL.html" target="_blank" class="link_net mr10 clearfix"><img src="./chuangxinportal.png" width="270" height="170"></a>
+				<div class="threelink clearfix">
+					<a href="https://oa.asiainfo.com/home/view5?id=d0b2b892-ed35-a2dd-4663-b600e2e378fb" target="_blank"> <img src="./link_07.png" width="300" height="50"></a>
+					<a href="https://oa.asiainfo.com/home/view2?id=4d7ac2ca-3038-aa66-4abb-0c769b694956" target="_blank"><img src="./doc_download.png" width="300" height="50"></a>
+					<a href="https://oa.asiainfo.com/home/view4?id=bdaa2aca-0f35-a12e-4e3d-21c3f68db111" target="_blank"><img src="./zhengcezhidu.png" width="300" height="50"></a>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="footer">
+			<div class="footwrap">
+				<div class="foot_left">
+					<div class="f_linkbox">
+						<h2 class="foot_tit">友情链接</h2>
+						<div class="f_link">
+							<ul class="f_linklist" id="link1">
+								<li>
+									<a href="http://www.asiainfodata.com/" target="_blank">亚信数据</a>
+								</li>
+								<li>
+									<a href="http://www.asiainfo-sec.com/" target="_blank">亚信安全</a>
+								</li>
+								<li>
+									<a href="http://192.168.15.190/DSS/Login/login.jsp" target="_blank">Q&amp;O </a>
+								</li>
+								<li>
+									<a href="http://aikm.asiainfo.com/" target="_blank">亚信安全知识库</a>
+								</li>
+							</ul>
+							<ul class="f_linklist" id="link2">
+								<li>
+									<a href="http://intra.asiainfo.com/misonline/" target="_blank">IT支持中心 </a>
+								</li>
+								<li>
+									<a href="http://intra.asiainfo.com/legalsite/documents/index.asp" target="_blank">法律部 </a>
+								</li>
+								<li>
+									<a href="http://cuc.asiainfo.com/" target="_blank">CUC事业部站点 </a>
+								</li>
+								<li>
+									<a href="http://cmccpso.asiainfo.com/" target="_blank">CMC事业部 </a>
+								</li>
+							</ul>
+							<ul class="f_linklist" id="link3">
+								<li>
+									<a href="http://58.213.156.202:58080/OnlineServer/" target="_blank">DMP</a>
+								</li>
+								<li>
+									<a href="http://portal.asiainfo.com/oatask/main.jsp" target="_blank">需求管理 </a>
+								</li>
+								<li>
+									<a href="http://home.asiainfo.com/wifi/" target="_blank">北京访客WIFI</a>
+								</li>
+								<li>
+									<a href="http://price.asiainfo.com/bsq/verifyUserAction!verifyUser.ai2do?verifyParam=JOGOqMyvztZSn%2FrexpEUBzSy1ftXqYt4iwUc%2FIvVftgKF4xgj7dXEdinPCdor2ZIn3eWt4fAV2t5%0DcyLg1luZQ2nXHetdgtTVTPxuIOzlhXX08MrRG2%2BFgol4bF1DDFo2%0D">BDX产品报价系统</a>
+								</li>
+							</ul>
+							<ul class="f_linklist" id="link4">
+								<li>
+									<a href="http://aiosc.asiainfo.com/" target="_blank">亚信开源社区</a>
+								</li>
+								<li>
+									<a href="http://bdxoa.asiainfo.com/" target="_blank">BDXOA系统</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="foot_right">
+					<ul class="code_list">
+						<li>
+							<div class="code_tit">官方微博</div>
+							<img src="./erwei_01.jpg" width="100" height="100"></li>
+						<li>
+							<div class="code_tit">信部落</div>
+							<img src="./xinbuluo.jpg" width="100" height="100"></li>
+					</ul>
+					<ul class="code_list">
+						<li>
+							<div class="code_tit">官方微信</div>
+							<img src="./erwei_03.jpg" width="100" height="100"></li>
+						<li>
+							<div class="code_tit">知信</div>
+							<img src="./erwei_04.jpg" width="100" height="100"></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					Welcome to Asiainfo home | 亚信集团版权所有
+				</div>
+			</div>
+		</div>
+		<!--弹出框-->
+		<div class="bg_win" onclick="closeShow()" style="display: none;"></div>
+		<div class="dialog" style="display: none;">
+			<div class="dialog_main" id="quickmenudiv">
+				<div class="dialog-close">×</div>
+				<ul class="plat_list">
+					<li>
+						<h2>常用工具</h2></li>
+
+					<li>
+						<a href="http://mail.asiainfo.com/" target="_blank">亚信邮箱</a>
+					</li>
+					<li>
+						<a href="https://oa.asiainfo.com/user/employeeSeach" target="_blank">通讯录 </a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/aioas/submitapplication/cansubmitbusinessclassbrowse.aspx" target="_blank">MIS在线</a>
+					</li>
+					<li>
+						<a href="http://oa.asiainfo.com/AIAIR/" target="_blank">资源预定</a>
+					</li>
+
+					<li>
+						<a href="http://home1.asiainfo.com/aiunsse/Reimbursement/PettyCashVoucher/ChooseApplyClass.aspx" target="_blank">工会报销</a>
+					</li>
+					<li>
+						<a href="http://info.asiainfo.com/AMP/index.html" target="_blank">办公房新租申请</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/aifsm" target="_blank">
+							<!--<a href="https://homecloud.asiainfo.com/aifsm" target="_blank">-->IT资产变更</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/Seat/seat/mySeat/mySeat.html" target="_blank">工位管理</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/aihra" target="_blank">人事审批</a>
+					</li>
+
+					<li>
+						<a href="http://10.1.31.73/" target="_blank">信客服</a>
+					</li>
+					<li>
+						<a href="https://asiainfo.gokuai.com/" target="_blank">信云库</a>
+					</li>
+					<li>
+
+						<a href="javascript:alert(&#39;没有此权限&#39;)">数据之窗</a>
+
+					</li>
+					<li>
+						<a href="http://oae.asiainfo.com/aieps" target="_blank">快递系统</a>
+					</li>
+				</ul>
+				<ul class="plat_list">
+					<li>
+						<h2>财务支撑</h2></li>
+					<li>
+						<a href="http://home1.asiainfo.com/aisse" target="_blank">网上报销</a>
+					</li>
+					<li>
+						<a href="https://oa.asiainfo.com/home/view7?id=c591157c-d879-a8b9-44fe-80a4593c5215" target="_blank">年度预算</a>
+					</li>
+					<li>
+						<a href="http://bi.asiainfo.com/" target="_blank">OLAP分析</a>
+					</li>
+					<li>
+						<a href="http://intra.asiainfo.com/misonline/subnavigation.aspx?navigationid=eaedb98c-05f4-466b-80d7-2a1f0577a046" target="_blank">固定资产采购</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/Invoice/Jsp/main.jsp" target="_blank">发票与回款</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/FTCInvoice/Jsp/main1.jsp" target="_blank">外贸合同发票</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/PL/Jsp/main.jsp" target="_blank">P&amp;L财务分析（区域级）</a>
+					</li>
+					<li>
+						<a href="http://home.asiainfo.com/AIPOC" target="_blank">完工百分比</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/PMS/Jsp/main1.jsp" target="_blank">采购管理</a>
+					</li>
+
+					<li>
+						<a href="http://ims.asiainfo.com/AIOMS/Jsp/main.jsp" target="_blank">外包管理</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/BFT/Jsp/main.jsp" target="_blank">财务管理报表</a>
+					</li>
+					<li>
+						<a href="http://erp.asiainfo.com:8000/" target="_blank">Oracle ERP</a>
+					</li>
+				</ul>
+				<ul class="plat_list">
+					<li>
+						<h2>运营管理</h2></li>
+					<li>
+						<a href="http://info.asiainfo.com/TimeSheet/login.jsp" target="_blank">工时系统</a>
+					</li>
+					<li>
+						<a href="http://info.asiainfo.com/BudgetNew/Jsp/main.jsp" target="_blank">项目预算</a>
+					</li>
+					<li>
+						<a href="http://info.asiainfo.com/Budget/index.jsp" target="_blank">研发项目预算</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/Contract/Jsp/main.jsp" target="_blank">合同管理</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/OrderList/Jsp/main.jsp" target="_blank">合同拆分</a>
+					</li>
+
+					<li>
+						<a href="http://home2.asiainfo.com/AIFCS" target="_blank">新立项审批</a>
+					</li>
+					<li>
+						<a href="http://contract.asiainfo.com/AR/Jsp/main.jsp" target="_blank">AR管理</a>
+					</li>
+					<li>
+						<a href="http://info.asiainfo.com/OSBC/Jsp/main.jsp" target="_blank">分包预算</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/ARForecast/Jsp/main.jsp" target="_blank">收款预测&amp;任务跟踪</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/PPL/Jsp/main.jsp" target="_blank">BU损益分析</a>
+					</li>
+					<li>
+						<a href="http://info.asiainfo.com/PES" target="_blank">项目绩效评估</a>
+					</li>
+					<li>
+						<a href="http://home.asiainfo.com/aisaf" target="_blank">
+							销售预测</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/LCSS/Jsp/main.jsp" target="_blank">人力成本分摊</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/CTMS/Jsp/main.jsp" target="_blank">客户管理培训管理</a>
+					</li>
+					<li>
+						<a href="http://ims.asiainfo.com/RFAS/Jsp/main.jsp" target="_blank">应收&amp;测收分析</a>
+					</li>
+					<li>
+						<a href="http://home2.asiainfo.com/AISCA" target="_blank">
+							销售合同管理部审批</a>
+					</li>
+				</ul>
+				<ul class="plat_list">
+					<li>
+						<h2>MyHR</h2></li>
+					<li>
+						<a href="http://home1.asiainfo.com/aihra/SubmitApplication/CanSubmitEmployeeHireBusinessBrowse.aspx" target="_blank">新员工录用申请</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/AISES/report/statequery.aspx" target="_blank">员工入职</a>
+					</li>
+					<li>
+						<a href="http://ppas.asiainfo.com/pms" target="_blank">试用期转正</a>
+					</li>
+					<li>
+						<a href="http://aiidp.asiainfo.com/" target="_blank">人才档案</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/aihra/SubmitApplication/OrganizationChangeApplication.aspx" target="_blank">部门变更申请</a>
+					</li>
+					<li>
+						<a href="http://home.asiainfo.com/AIOES/" target="_blank">360评估</a>
+					</li>
+					<li>
+						<a href="http://ppas.asiainfo.com/pms" target="_blank">绩效系统</a>
+					</li>
+					<li>
+						<a href="http://home.asiainfo.com/AIPRT/ContentManage/ContentCategoryPreview/3c04a96e-7f73-a975-4e34-0e7fbfbdf6ab?portal" target="_blank">人事政策</a>
+					</li>
+					<li>
+						<a href="http://hrleave.asiainfo.com/LeaveMS/index.jsp" target="_blank">休假申请</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/aihra/SubmitApplication/CanSubmitWorkOverTimeBusinessBrowse.aspx" target="_blank">加班申请</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/AIHCS/default.aspx" target="_blank">HC管控</a>
+					</li>
+					<li>
+						<a href="https://oa.asiainfo.com/home/zhaopinsys" target="_blank">人才招聘</a>
+					</li>
+					<li>
+						<a href="http://asiainfo.hirede.com/InternalReferral/InternalReferralJobList" target="_blank">热招职位</a>
+					</li>
+					<li>
+						<a href="http://asiainfo.hirede.com/InternalReferral/InternalReferralJobList" target="_blank">内部推荐</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/AIHRA/submitapplication/IntChoiceAwardApplication.aspx" target="_blank">内部推荐奖申请</a>
+					</li>
+					<li>
+						<!--<a href="../home/yunxuetang" target="_blank">信学堂</a>-->
+						<a href="javascript:void(null)" onclick="js_method()">信学堂</a>
+					</li>
+					<li>
+						<a href="http://oa.asiainfo.com/AIEHS" target="_blank">离职手续办理</a>
+					</li>
+					<li>
+						<a href="http://home1.asiainfo.com/AICMS/" target="_blank">劳动合同</a>
+					</li>
+				</ul>
+				<ul class="plat_list" style="width: 100px;">
+					<li>
+						<h2>论坛</h2></li>
+					<li>
+						<a href="http://bbs.asiainfo.com/bbs" target="_blank">进入论坛</a>
+					</li>
+					<!-- <li><a id="yunxuetanga" href="../home/yunxuetang" target="_blank">云学堂</a></li>   -->
+					<!--  <li><a id="yunxuetanga" onclick="yunxuetang();" target="_blank">云学堂</a></li> -->
+				</ul>
+			</div>
+		</div>
+		<!--弹出框2-->
+
+		<div class="show1" onclick="closeShow()" style="opacity: 0.36; filter: alpha(opacity = 57); background-color: #474747; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; display: none;"></div>
+		<div class="show2" style="display: none; width: 220px; height: 200px; position: fixed; top: 80%; left: 50%; margin: -253px 0 0 -356px; background: url(../images/dailog_bg.png); z-index: 1000;">
+			<div class="dialog_main" style="padding-top: 15px;">
+				<ul class="plat_list" id="ulUnApprove" style="width: 90%; top: -20px;">
+					<li style="text-align:right;">
+						<a href="javascript:closeDi();">X</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="show3" onclick="closeShow()" style="opacity: 0.36; filter: alpha(opacity = 57); background-color: #474747; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; display: none;"></div>
+		<div class="show4" style="display: none; width: 420px; height: 100px; position: fixed; top: 100%; left: 40%; margin: -253px 0 0 -356px; background: url(../images/dailog_bg.png); z-index: 1000;">
+			<div class="dialog_main" style="padding-top: 15px; text-align: center; color: white; font-weight: bold;">
+				<div style="text-align: right; padding-right: 15px; cursor: pointer;" onclick="closephoto()">X</div>
+				<br>
+				<form action="https://oa.asiainfo.com/user/uploadphoto2" id="photofoem" method="post" enctype="multipart/form-data">
+					选择照片： <input style="border: none;" type="file" id="myfile" name="myfile">&nbsp;&nbsp; <input type="button" id="btnuploadphoto" style="background: url(../images/u88.png); width: 71px; height: 26px; border: none;" value="上传头像"> <br> <span style="font-size: -1;">注:请尽量使用宽高比为1：1的照片,以免走形</span>
+				</form>
+			</div>
+		</div>
+		<!-- yeshaoqun -->
+		<div class="dialog2" id="xinyutangdialog" style="display: none">
+			<div class="dialog2_main" id="quickmenudiv11">
+				<div class="dialog2-close" onclick="colsexinyuetang();">×</div>
+				<p style="font-size:13px"><strong>温馨提示：</strong></p>
+				<br>
+				<p style="font-size:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为公司内网限制，如果您想登录信学堂观看视频内容，请通过外网访问：<strong>asiainfo.yunxuetang.cn。</strong></p>
+				<br>
+				<p style="font-size:13px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名：NT账号，初始密码：223344.（请登陆后及时修改您的信学堂密码）</p>
+				<br>
+				<p align="center" style="font-size:13px;">
+					<a href="https://oa.asiainfo.com/home/yunxuetang" onclick="colsexinyuetang();" target="_blank"><img src="./xinyuetangtishi1.png"></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="javascript:void(null)" onclick="colsexinyuetang();"><img src="./xinyuetangtishi2.png"></a>
+				</p>
+			</div>
+		</div>
+		<!-- yeshaoqun -->
+
+		<script type="text/javascript">
+			function erpshixiao() {
+				alert("系统升级改造中~");
+				return false;
+			}
+
+			function erpshixiao11() {
+				alert("根据公司BG拆分及ERP系统升级的要求，该系统暂时关闭。在ERP系统升级完成后预计2016年1月18日再开放。谢谢大家的理解和支持！");
+				return false;
+			}
+
+			function erpshixiao12() {
+				alert("根据公司BG拆分及ERP系统升级的要求，该系统暂时关闭。在ERP系统升级完成后预计2016年1月19日再开放。谢谢大家的理解和支持！");
+				return false;
+			}
+
+			//||title=="AR管理"||title=="AR system"
+			function erpshixiao1(title) {
+				/*  if(title=="新立项审批"||title=="Project Appr."||title=="采购管理"||title=="PMS"||title=="外包管理"||title=="AIOMS"
+		   ||title=="外贸合同发票"||title=="FTCInvoice"||title=="AR管理"||title=="AR system"
+		   ||title=="合同管理"||title=="Contract Management"||title=="销售合同管理部审批"||title=="AISCA"
+			||title=="客户管理培训管理"||title=="CTMS"||title=="项目预算"||title=="Pro. Budget Sys."
+			||title=="研发项目预算"||title=="Dev. Pro. Budget"||title=="分包预算"||title=="OSBS"
+			||title=="工时系统"||title=="Ace Teamwork"||title=="合同拆分"||title=="Contract Splitting"
+			||title=="应收&测收分析"||title=="RFAS"||title=="收款预测&任务跟踪"||title=="Collection Forecast"
+			||title=="工位管理"||title=="AMP"||title=="办公房新租申请"||title=="AMP"
+			){
+		   alert("根据公司BG拆分及ERP系统升级的要求，该系统暂时关闭。在ERP系统升级完成后预计2016年1月18日再开放。谢谢大家的理解和支持！");
+			  return false; 
+	   } */
+
+				/* if(title=="销售预测"||title=="Sales Forecasting"){
+			  alert("根据公司BG拆分及ERP系统升级的要求，该系统暂时关闭。在ERP系统升级完成后预计2016年1月19日再开放。谢谢大家的理解和支持！");
+			  return false;
+		   } */
+				return true;
+			}
+
+			function uploadPhoto() {
+
+				$(".show3").show();
+				$(".show4").show();
+			}
+
+			function closeShow() {
+
+				$('.bg_win,.dialog,.show1,.show2,.show3,.show4').hide();
+			}
+
+			function closephoto() {
+
+				$(".show3").hide();
+				$(".show4").hide();
+			}
+
+			function showLookSystem() {
+				$("#quickmenudiv .plat_list a").undelegate();
+				$('.bg_win,.dialog').show();
+			}
+			$(function() {
+				$("#btnuploadphoto").click(function() {
+					if($("#myfile").val().length > 0) {
+						//验证扩展名
+						var srcValue = document.getElementById("myfile").value.toLowerCase();
+						if(!/(.jpg$)|(.bmp$)|(.png$)|(.gif$)/.test(srcValue)) {
+							alert("格式错误,请选择jpg|bmp|png|gif格式的图片.");
+							return false;
+						}
+
+						ajaxFileUpload();
+					} else {
+						alert("请选择图片");
+					}
+				})
+			});
+
+			function ajaxFileUpload() {
+
+				$.ajaxFileUpload({
+					//处理文件上传操作的服务器端地址(可以传参数,已亲测可用)
+					url: '../user/uploadphoto2',
+					secureuri: true, //是否启用安全提交,默认为false 
+					fileElementId: 'myfile', //文件选择框的id属性
+					dataType: 'json', //服务器返回的格式,可以是json或xml等
+					success: function(data, status) { //服务器响应成功时的处理函数
+
+						if(data.res == "success") { //0表示上传成功(后跟上传后的文件路径),1表示失败(后跟失败描述)
+							if($("#imgUserPhoto").attr("src") == "../images/userphoto/users_photo.jpg") {
+								$("#imgUserPhoto").attr("src", "../images/userphoto/" + data.msg);
+							} else {
+								$("#imgUserPhoto").attr("src", "../images/userphoto/users_photo.jpg");
+							}
+							alert('头像上传成功.');
+							$("#imgUserPhoto").attr("src", "../images/userphoto/" + data.msg);
+						} else if(data.res == "bigger") {
+							alert('图片大小不能超过500kb');
+						} else {
+							alert(data.res);
+						}
+						closephoto();
+					},
+					error: function(data, status, e) { //服务器响应失败时的处理函数
+						alert('头像上传失败.');
+						closephoto();
+					}
+				});
+
+				return false;
+			}
+
+			$(document).ready(function() {
+
+				//显示个人工具栏 		
+				loadFavourite();
+				$(".tab_l").mouseover(function() {
+					$(".tab_l_content").show();
+					$(".tab_r_content").hide();
+				});
+
+				$(".tab_r").mouseover(function() {
+					$(".tab_l_content").hide();
+					$(".tab_r_content").show();
+				});
+
+				//显示bbs
+				getLatetTopic();
+
+				//显示hello ai
+				getHelloAi();
+
+				//显示员工积分
+
+				var spjf = $("#spanjifen");
+
+				if(spjf.text() == "-") {
+					$.ajax({
+						type: 'post',
+						url: '../home/getJifen',
+						success: function(jifen) {
+
+							if(jifen == null || jifen == "") {
+								jifen = "0";
+							}
+							spjf.html(jifen);
+						}
+					});
+				}
+
+				//显示友情链接
+				$.ajax({
+					type: 'post',
+					url: '../home/friendslinks',
+					success: function(text) {
+						var link1 = "";
+						var link2 = "";
+						var link3 = "";
+						var link4 = "";
+						var linkhaurl = "";
+						var parameter = $('#bdxParameter').val();
+						$.each(text, function(i, item) {
+							if(i <= 3) {
+								if(item.redirect_url != null) {
+									link1 += "<li><a href=" + item.redirect_url + " target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								} else {
+									link1 += "<li><a href='../home/view?id=" +
+										item.content_id +
+										"' target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								}
+							} else if(i > 3 &&
+								i <= 7) {
+								if(item.redirect_url != null) {
+									link2 += "<li><a href=" + item.redirect_url + " target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								} else {
+									link2 += "<li><a href='../home/view?id=" +
+										item.content_id +
+										"' target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								}
+							} else {
+								if(item.redirect_url != null) {
+									link3 += "<li><a href=" + item.redirect_url + " target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								} else {
+									link3 += "<li><a href='../home/view?id=" +
+										item.content_id +
+										"' target='_blank'>" +
+										item.content_title +
+										"</a></li>";
+								}
+							}
+						});
+
+						$("#link1").html(link1);
+						$("#link2").html(link2);
+						//http://home.asiainfo.com/hrgeward/ai_guest.aspx
+						link3 += "<li><a href='http://home.asiainfo.com/wifi/' target='_blank'>北京访客WIFI</a></li>";
+						link3 += "<li><a href='http://price.asiainfo.com/bsq/verifyUserAction!verifyUser.ai2do?verifyParam=" + parameter + "'>BDX产品报价系统</a></li>";
+						$("#link3").html(link3);
+						link4 += "<li><a href='http://aiosc.asiainfo.com' target='_blank'>亚信开源社区</a></li>";
+						link4 += "<li><a href='http://bdxoa.asiainfo.com' target='_blank'>BDXOA系统</a></li>"
+						$("#link4").html(link4);
+
+					}
+				});
+
+			});
+
+			$(function() {
+
+				function gundongtz() {
+					$.ajax({
+						type: 'post',
+						url: '../gdtz/loadtz?r=' + Math.random(),
+						success: function(text1) {
+
+							if(text1) {
+								var text = eval(text1);
+								var gds = "";
+								$.each(text, function(index, item) {
+									//循环获取数据    
+									var id_ = text[index].id_;
+									var value_ = text[index].value_;
+									var rurl = text[index].rurl;
+
+									if(rurl && rurl != "") {
+
+										gds += "<a style='padding-left:50px;' href='" + rurl + "' target='_blank'>" + value_ + "</a>";
+									} else {
+
+										gds += "<a style='padding-left:50px;' href='view?id=" + id_ + "' target='_blank'>" + value_ + "</a>";
+									}
+								});
+
+								// for(var i=0;i<text.length;i++){ 
+
+								// gds += "<a style='padding-left:50px;' href='view?id="+text[i].id_+"' target='_blank'>"+text[i].value_+"</a>"
+								//			if(text[i].rurl && text[i].rurl!=""){
+
+								//				gds += "<a style='padding-left:50px;' href='"+text[i].rurl+"' target='_blank'>"+text[i].value_+"</a>";
+								//			}else{
+
+								//				gds += "<a style='padding-left:50px;' href='view?id="+text[i].id_+"' target='_blank'>"+text[i].value_+"</a>";
+								//			}
+
+								// }
+								$("#gundong").html(gds);
+
+							}
+
+						}
+					});
+
+				}
+				gundongtz();
+				setInterval(gundongtz, 120000);
+			});
+
+			//待审批
+			$.ajax({
+				type: 'post',
+				url: '../unapprove/load',
+				success: function(text) {
+
+					var tc = 0;
+					var lis = "<li style='text-align:right;'><a href='javascript:closeDi();'>X</a></li>";
+					$("#daichuli").html(tc);
+					if(text != "") {
+
+						var objs = eval(text);
+
+						$.each(objs, function(i, item) {
+
+							if(i == 0) {
+								tc = item.totalCount;
+								$("#daichuli").html(tc);
+							}
+							lis += "<li><a href='" + item.url + "' target='_blank'>" +
+								item.title + "</a></li>";
+						});
+
+					}
+					$("#ulUnApprove").html(lis);
+
+				}
+			});
+
+			function closeDi() {
+				$(".show1").hide();
+				$(".show2").hide();
+
+			}
+
+			function showdown() {
+				$(".show1").show();
+				$(".show2").show();
+			}
+
+			function getLatetTopic() {
+				//获取远程数据
+				$.post("../bbs/load",
+					function(data) {
+
+						for(var i = 0; i < data.length; i++) {
+							$("#bbs .inform_list_time").eq(i * 2).html(
+								data[i].order + ".");
+							$("#bbs .bss_link").eq(i).html(data[i].title);
+							$("#bbs .bss_link").eq(i).attr("href", data[i].url);
+							var bbsItem = '<nobr>点击:' + data[i].views + '&nbsp;&nbsp;回复:' +
+								data[i].replies + '</nobr>';
+
+							$("#bbs .inform_list_time").eq(i * 2 + 1).html(bbsItem);
+						}
+					}, "json");
+			}
+
+			function getHelloAi() {
+				//获取远程数据
+				$.post("../helloai/load", function(data) {
+
+					var h = "";
+					var photourl = "";
+					for(var i = 0; i < data.length; i++) {
+						h += '<li><a href="' + data[i].linkUrl + '" target="_blank">' +
+							data[i].title + '</a></li>';
+						if(i == 0) {
+							photourl = data[i].photourl;
+						}
+					}
+					$(".hello_list").html(h);
+
+					if(photourl != "") {
+
+						$("#helloaidiv").css("background-image",
+							"url(../images/helloai/" + photourl + ")");
+						$("#helloaidiv").css("background-size", "270px 147px");
+
+					}
+				}, "json");
+			}
+
+			/* function yunxuetang(){
+				$.ajax({
+					url:"../home/yunxuetang",
+					type:"get",
+					dataType:"text",
+					success:function(text){
+						//alert(text);
+						if(text.indexOf('error')>=0){
+							alert(text);return false;
+						}else{
+							window.location.href=text;
+							//window.open(text);
+							//$("#yunxuetanga").attr("href",text);
+							//return true;
+							//  self.location(text);
+						}
+					}
+				})
+			} */
+
+			function js_method() {
+				$("#xinyutangdialog").show();
+			}
+
+			function colsexinyuetang() {
+				$("#xinyutangdialog").hide();
+			}
+		</script>
+		<div id="window-resizer-tooltip" style="display: block;">
+			<a href="https://oa.asiainfo.com/home/index#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1366</span> x <span class="tooltipHeight" id="winHeight">728</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1366</span> x <span class="tooltipHeight" id="vpHeight">599</span></div>
+	</body>
+
+</html>
