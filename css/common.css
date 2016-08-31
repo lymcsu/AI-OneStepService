@@ -16,8 +16,8 @@
 	background: rgba(0, 0, 0, 0.2);
 	background: transparent\9;
 	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* IE5.5-7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#220000000, endColorstr=#220000000)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#220000000, endColorstr=#220000000); /* IE5.5-7 */
 	position: absolute;
 	top: 0;
 	font-size: 12px;
@@ -83,7 +83,7 @@
 	background-color: rgba(0, 0, 0, 0.3);
 	background: transparent\9;
 	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#99000000)"; /* IE8 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000)"; /* IE8 */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000); /* IE5.5-7 */
 }
 
@@ -128,8 +128,8 @@ body{
 	background: rgba(0,0,0,0.5);
 	background: transparent\9;
 	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#99000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000); /* IE5.5-7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* IE5.5-7 */
 }
 .tabs-menu{
 	width: 980px;
@@ -152,8 +152,8 @@ body{
 	background-color: rgba(0,0,0,0.6);
 	background: transparent\9;
 	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#40000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* IE5.5-7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#240000000, endColorstr=#240000000)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#240000000, endColorstr=#240000000); /* IE5.5-7 */
 }
 .tabs-menu li.active{
 	background-color: #425ac7;
