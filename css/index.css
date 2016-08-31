@@ -1,5 +1,5 @@
 .head-wrap {
-	background: url(../img/b-g.png) no-repeat;
+	background: url(../img/b-g-index.png) no-repeat;
 	background-size: cover;
 }
 .service-selector {
@@ -52,7 +52,7 @@
 	box-shadow: 0px 15px 25px -15px #35bd80;
 }
 .service-selector i{
-	font-size: 46px;
+	font-size: 44px;
 	margin-right: 18px;
 	vertical-align: middle;
 }
