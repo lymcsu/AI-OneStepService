@@ -14,18 +14,42 @@
 	width: 100%;
 	height: 60px;
 	background: rgba(0, 0, 0, 0.2);
-	background: transparent\9;
-	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#220000000, endColorstr=#220000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#220000000, endColorstr=#220000000); /* IE5.5-7 */
 	position: absolute;
 	top: 0;
 	font-size: 12px;
 }
-
+@media \0screen\,screen\9 {
+	.head-nav{
+		background: #000000;
+		*zoom:1; /* required for the filters */
+    	filter:Alpha(opacity=20);/* 只支持IE6、7、8、9 */
+	}
+	.menu-list li:hover{
+		background: #000000;
+		*zoom:1; /* required for the filters */
+    	filter:Alpha(opacity=30);/* 只支持IE6、7、8、9 */
+	}
+	.menu-list li a{
+		position: relative;
+	}
+	.tabs-bar{
+		background: #000000;
+		*zoom:1; /* required for the filters */
+    	filter:Alpha(opacity=50);/* 只支持IE6、7、8、9 */
+	}
+	.tabs-menu li:hover{
+		background: #000000;
+		*zoom:1; /* required for the filters */
+    	filter:Alpha(opacity=60);/* 只支持IE6、7、8、9 */
+	}
+	.tabs-menu li i,.tabs-menu li p{
+		position: relative;
+	}
+}
 .head-nav-menu {
 	width: 980px;
 	height: 60px;
+	position: relative;
 	margin: 0 auto;
 }
 
@@ -45,7 +69,7 @@
 
 .divider {
 	margin: 0 14px;
-	height: 80%;
+	height: 20px;
 	border-left: solid 1px #fefefe;
 	display: inline-block;
 	vertical-align: middle;
@@ -68,9 +92,20 @@
 
 .menu-list li {
 	color: #ffffff;
-	float: right;
+	float: left;
 	cursor: pointer;
 	line-height: 60px;
+}
+.menu-list li:before{
+	content: '';
+	height: 20px;
+	margin-right: 20px;
+	border-left: 1px solid #b0b2b9;
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu-list li:first-child:before{
+	border: none;
 }
 .menu-list a{
 	display: inline-block;
@@ -81,11 +116,8 @@
 
 .menu-list li:hover {
 	background-color: rgba(0, 0, 0, 0.3);
-	background: transparent\9;
-	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000); /* IE5.5-7 */
 }
+
 
 .menu-list li i {
 	font-size: 23px;
@@ -126,14 +158,11 @@ body{
 	position: absolute;
 	bottom: 0;
 	background: rgba(0,0,0,0.5);
-	background: transparent\9;
-	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000); /* IE5.5-7 */
 }
 .tabs-menu{
 	width: 980px;
 	margin: 0 auto;
+	position: relative;
 }
 .tabs-menu li{
 	width: 33.3%;
@@ -150,10 +179,6 @@ body{
 }
 .tabs-menu li:hover{
 	background-color: rgba(0,0,0,0.6);
-	background: transparent\9;
-	zoom:1\8; /* required for the filters */
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#240000000, endColorstr=#240000000)"; /* IE8 */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#240000000, endColorstr=#240000000); /* IE5.5-7 */
 }
 .tabs-menu li.active{
 	background-color: #425ac7;
@@ -167,9 +192,6 @@ body{
 }
 .side-bar{
 	width: 200px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 	float: left;
 	border-radius: 2px;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
@@ -185,6 +207,9 @@ body{
 	background-color: #ffffff;
 	color: #666;
 	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .side-bar a:hover{
 	background-color: #efeff0;
@@ -222,6 +247,12 @@ body{
 	font-size: 12px;
 	cursor: pointer;
 	background-color: #ffffff;
+}
+.content-items li span:first-child{
+	width: 600px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .content-items li:hover{
 	background-color: #efeff0;
