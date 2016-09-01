@@ -1,5 +1,5 @@
 .head-wrap {
-	background: url(../img/b-g-index.png) no-repeat;
+	background: url(../img/b-g-index.png) no-repeat center center;
 	background-size: cover;
 }
 .service-selector {
@@ -7,12 +7,13 @@
 	height: 126px;
 	border-radius: 4px;
 	color: #ffffff;
-	padding: 40px 45px;
 	margin: 0 0 35px 2%;
 	float: left;
 	font-size: 0;
 	transition: all .4s ease-in-out; 
 	cursor: pointer;
+	overflow: hidden;
+	line-height: 126px;
 }
 .service-selector.nth1{
 	background-color: #963db4;
@@ -30,6 +31,9 @@
 }
 .service-selector.nth5{
 	background-color: #35bd80;
+}
+.service-selector.nth6{
+	background-color: #8d9bb3;
 }
 .service-selector.nth1:hover{
 	transform: translateY(-10px);
@@ -66,4 +70,8 @@
 }
 .service-title p.intro{
 	font-size: 12px;
+}
+.service-selector a{
+	padding: 0 45px;
+	display: block;
 }
