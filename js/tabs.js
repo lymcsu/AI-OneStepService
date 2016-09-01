@@ -13,6 +13,6 @@ $(".side-bar a").on("click",function(){
 $(".content-items li").on("click",function(){
 	$(this).parent().hide().siblings(".content-detail").show();
 })
-$(".icon-iconfontcha").on("click",function(){
+$(".detail-top i").on("click",function(){
 	$(this).parents(".content-detail").hide().siblings(".content-items").show();
 })
