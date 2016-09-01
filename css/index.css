@@ -55,15 +55,15 @@
 	transform: translateY(-10px);
 	box-shadow: 0px 20px 30px -15px #35bd80;
 }
-.service-selector i{
+.service-selector a i{
 	font-size: 44px;
+	float: left;
 	margin-right: 18px;
-	vertical-align: middle;
 }
 .service-title{
 	line-height: 24px;
 	display: inline-block;
-	vertical-align: middle;
+	margin-top: 35px;
 }
 .service-title p.name{
 	font-size: 14px;
