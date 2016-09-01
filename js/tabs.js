@@ -9,6 +9,8 @@ $(".side-bar a").on("click",function(){
 	$(this).addClass("active");
 	$(this).parent().siblings(".main-content").find(".content-detail").hide();
 	$(this).parent().siblings(".main-content").find(".content-items").show();
+	var text = $(this).text();
+	$(this).parent().siblings(".main-content").find(".title div").text(text);
 })
 $(".content-items li").on("click",function(){
 	$(this).parent().hide().siblings(".content-detail").show();
