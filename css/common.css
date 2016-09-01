@@ -100,17 +100,21 @@ body{
 }
 .tabs-menu li{
 	width: 33.3%;
-	height: 80px;
+	height: 76px;
+	border-bottom: 4px solid transparent;
 	float: left;
 	text-align: center;
 	color: #404146;
-	padding: 16px 0;
 	line-height: 26px;
 	cursor: pointer;
 }
 .tabs-menu li.active{
 	color: #425ac7;
 	border-bottom: 4px solid #425AC7;
+}
+.tabs-menu li i{
+	margin-top: 14px;
+	display: inline-block;
 }
 .tabs-box{
 	width: 100%;
@@ -122,9 +126,16 @@ body{
 .side-bar{
 	width: 180px;
 	float: left;
+	margin-right: -180px;
 	border-radius: 2px;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
 	border: 1px solid #e1e6eb\9;
+	overflow: hidden;
+	position: relative;
+}
+.right-box{
+	float:right;
+	width:100%;
 }
 .side-bar a{
 	width: 100%;
