@@ -51,24 +51,14 @@
 	font-size: 0;
 }
 
-.menu-list li {
+.menu-list li{
 	float: left;
 	line-height: 60px;
-}
-.menu-list li:before{
-	content: '';
-	height: 20px;
-	margin-right: 20px;
-	border-left: 1px solid #b0b2b9;
-	display: inline-block;
-	vertical-align: middle;
-}
-.menu-list li:first-child:before{
-	border: none;
+	cursor: pointer;
 }
 .menu-list li a{
 	display: inline-block;
-	cursor: pointer;
+	padding: 0 20px;
 	color: #B6B7B7\9;
 	color: rgba(255,255,255,0.6);
 }
@@ -86,21 +76,19 @@
 }
 
 .menu-list li span {
-	padding: 0 20px 0 10px;
+	padding-left:10px;
 	display: inline-block;
 	font-size: 14px;
 	text-align: center;
 	vertical-align: middle;
 }
-
-.divider-line {
+.menu-divider{
 	height: 20px;
-	margin-right: 20px;
+	margin: 20px 0;
+	padding: 0 !important;
 	border-left: 1px solid #b0b2b9;
-	display: inline-block;
-	vertical-align: middle;
+	float: left;
 }
-
 .oss-main {
 	width: 980px;
 	margin: 30px auto 60px;
