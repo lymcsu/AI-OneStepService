@@ -20,7 +20,8 @@
 }
 
 .head-nav-menu {
-	width: 100%;
+	width: 1200px;
+	margin: 0 auto;
 	height: 60px;
 	position: relative;
 }
@@ -33,12 +34,13 @@
 
 .menu-list {
 	float: right;
-	height: 100%;
+	height: 60px;
 	font-size: 0;
 }
 
 .menu-list li{
 	float: left;
+	height: 60px;
 	line-height: 60px;
 	cursor: pointer;
 }
@@ -69,14 +71,14 @@
 	vertical-align: middle;
 }
 .menu-divider{
-	height: 20px;
+	height: 20px !important;
 	margin: 20px 0;
 	padding: 0 !important;
 	border-left: 1px solid #b0b2b9;
 	float: left;
 }
 .oss-main {
-	width: 980px;
+	width: 1200px;
 	margin: 30px auto 60px;
 }
 body{
@@ -93,7 +95,7 @@ body{
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
 }
 .tabs-menu{
-	width: 980px;
+	width: 1200px;
 	margin: 0 auto;
 }
 .tabs-menu li{
@@ -228,7 +230,6 @@ body{
 .detail-title{
 	height: 48px;
 	line-height: 48px;
-	font-weight: bold;
 }
 .detail-title span{
 	float: right;
